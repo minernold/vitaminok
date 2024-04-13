@@ -1,6 +1,7 @@
 body {
     margin: auto;
-    width: 1200px;
+    min-width: 100px;
+    max-width: 1400px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -9,24 +10,69 @@ a {
     color: black;
 }
 
+p {
+    color: black;
+    font-size: 18px;
+}
+
+img {
+    margin: auto;
+    max-width: 200px;
+}
+
 .cella {
+    cursor: pointer; 
     text-align: center;
-    font-size: 18pt;
+    font-size: 20pt;
+    font-weight: bold;
     padding: 5px;
-    width: 300px;
+    margin: auto;
+    animation-name: cellanimationOut;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 .cella:hover {
     animation-name: cellanimation;
     animation-duration: 0.7s;
+    animation-fill-mode: forwards;
 }
 
 .fejlec {
-    border: 2px black solid;
     padding: 2px;
+    margin: 2px;
+    margin: auto;
+    padding-bottom: 90px;
+    padding-top: 50px;
 }
 
 @keyframes cellanimation {
-    0% {border: 2px solid white;}
-    100% {border: 2px solid black;}
+    0% {
+            border: 2px solid white;
+        }
+    100% {
+            border: 2px solid black;
+        }
+}
+
+@keyframes cellanimationOut {
+    0% {border: 2px solid black;}
+    100% {border: 2px solid white;}
+}
+
+.tartalom {
+    font-size: 12px;
+    background-color: bisque;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    max-width: 1400px;
+    min-width: 80px;
+}
+
+
+.vitamin {
+    margin: auto;
+    height: 300px;
 }
