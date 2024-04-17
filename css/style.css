@@ -1,6 +1,5 @@
 body {
     margin: auto;
-    min-width: 100px;
     max-width: 1400px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -15,12 +14,22 @@ p {
     font-size: 18px;
 }
 
+i {
+    font-style: normal;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 img {
     margin: auto;
-    max-width: 200px;
+    max-width: 75%;
+    min-width: auto;
     border-radius: 5px;
     opacity: 0.6;
     animation: imghover 3s forwards;
+    position: relative;
+    top: 10px;
+
 }
 
 @keyframes imghover {
@@ -77,15 +86,29 @@ img {
     font-size: 12px;
     background-color: bisque;
     border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 5px;
     max-width: 1400px;
-    min-width: 80px;
 }
 
 
 .vitamin {
     margin: auto;
-    height: 300px;
+    margin-right: 0;
+    padding: 10px;
+    height: 450px;
+}
+
+.rowbottom {
+    padding-top: 50px;
+}
+
+.lablec {
+    height: 200px;
+}
+
+.lablec-felirat {
+    top: 200px;
+    text-align: center;
 }
