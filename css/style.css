@@ -25,16 +25,16 @@ img {
     max-width: 75%;
     min-width: auto;
     border-radius: 5px;
-    opacity: 0.6;
+    opacity: 0;
     animation: imghover 3s forwards;
     position: relative;
     top: 10px;
-
+    animation-delay: 1.5s;
 }
 
 @keyframes imghover {
     0% {
-        opacity: 0.1;
+        opacity: 0.0001;
     }    
     
     100% {
@@ -109,6 +109,20 @@ img {
 }
 
 .lablec-felirat {
-    top: 200px;
+    padding-top: 100px;
     text-align: center;
+}
+
+#me {
+    text-decoration: underline;
+    animation: rainbow 6s linear infinite;
+}
+
+@keyframes rainbow {
+    0% {color: red;}
+    25% {color: blue}
+    50% {color: green;}
+    75% {color: pink;}
+    85% {color: orange;}
+    100% {color: red;}
 }
