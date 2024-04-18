@@ -43,17 +43,6 @@ img {
     }
 }
 
-.instant {
-    margin: auto;
-    max-width: 75%;
-    min-width: auto;
-    border-radius: 5px;
-    opacity: 0;
-    animation: imghover 3s forwards;
-    position: relative;
-    top: 10px;
-}
-
 .cella {
     cursor: pointer; 
     text-align: center;
@@ -99,8 +88,6 @@ img {
     font-size: 12px;
     background-color: bisque;
     border-radius: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
     padding-top: 5px;
     max-width: 1400px;
 }
@@ -108,9 +95,13 @@ img {
 
 .vitamin {
     margin: auto;
-    margin-right: 0;
     padding: 10px;
     height: 450px;
+    max-width: 1400px;
+}
+
+.rowtop {
+    padding: 0;
 }
 
 .rowbottom {
@@ -124,6 +115,7 @@ img {
 .felkavaro {
     text-decoration: underline;
     font-weight: bold;
+    font-size: 14px;
 }
 
 .gomb {
