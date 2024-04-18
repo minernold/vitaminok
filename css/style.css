@@ -89,7 +89,7 @@ img {
     background-color: bisque;
     border-radius: 10px;
     padding-top: 5px;
-    max-width: 1400px;
+    max-width: 100%;
 }
 
 
