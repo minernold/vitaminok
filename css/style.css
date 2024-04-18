@@ -69,6 +69,7 @@ img {
 }
 
 .fejlec {
+    position: sticky;
     margin: auto;
     margin: 2px;
     padding-bottom: 90px;
@@ -117,6 +118,9 @@ img {
 
 .bakterium {
     display: none;
+    animation-delay: 0s;
+    max-width: 65%;
+    max-height: 150px;
 }
 
 .felkavaro {

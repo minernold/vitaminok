@@ -104,7 +104,7 @@
                     <i>Forrásai:</i> bélbaktériumok termelik, külső bevitele általában nem szükséges.</p>
                     <p class="felkavaro">Figyelem! <br> Az alábbi kép egyesek számára felkavaró lehet, kattintson a gombra ha megtekintené</p>
                     <button id="show-image-button" class="gomb">Katt</button>
-                    <img id="my-image"  src="pics/belbakterium.jpeg" alt="bélbaktériumok mennek a bélben" class="mx-auto d-block bakterium" style="animation-delay: 0s; max-width: 65%; max-height: 150px;">
+                    <img class="bakterium mx-auto d-block" id="my-image"  src="pics/belbakterium.jpeg" alt="bélbaktériumok mennek a bélben">
             </div>
         </div>
     </div>
@@ -120,7 +120,7 @@
       const myImage = document.getElementById("my-image"); 
       showImageButton.addEventListener("click", () => { 
          myImage.style.display = "block"; 
-      });
-    </script>
+      });    
+      </script>
 </body>
 </html>
