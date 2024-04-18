@@ -4,8 +4,12 @@ html {
 body {
     margin: auto;
     max-width: 1400px;
-    min-width: none;
+    min-width: 100px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-fluid {
+    width: auto;
 }
 
 a {
@@ -62,15 +66,14 @@ img {
 .cella:hover {
     animation-name: cellanimation;
     animation-duration: 0.7s;
-    animation-fill-mode: ease-in-out;
 }
 
 .fejlec {
-    padding: 2px;
-    margin: 2px;
     margin: auto;
+    margin: 2px;
     padding-bottom: 90px;
     padding-top: 50px;
+
 }
 
 @keyframes cellanimation {
@@ -91,7 +94,7 @@ img {
     font-size: 12px;
     background-color: bisque;
     border-radius: 10px;
-    padding-top: 5px;
+    margin-top: 5px;
     max-width: 100%;
 }
 
@@ -154,11 +157,6 @@ img {
     75% {color: pink;}
     85% {color: orange;}
     100% {color: red;}
-}
-
-.col-container {
-    display: table;
-    width: 100%;
 }
 
 .col {
