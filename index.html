@@ -116,11 +116,13 @@
     </div>
     
     <script>
-        const showImageButton = document.getElementById("show-image-button");
-      const myImage = document.getElementById("my-image"); 
+        
+      const showImageButton = document.getElementById("show-image-button");
+      const myImage = document.getElementById("my-image");
       showImageButton.addEventListener("click", () => { 
-         myImage.style.display = "block"; 
-      });    
+         myImage.classList.toggle("visible"); 
+      });
+
       </script>
 </body>
 </html>
