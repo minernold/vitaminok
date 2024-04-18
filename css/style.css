@@ -99,8 +99,9 @@ img {
 .vitamin {
     margin: auto;
     padding: 10px;
-    height: 450px;
+    height: 440px;
     max-width: 1400px;
+    padding: 5px;
 }
 
 .rowtop {
@@ -153,4 +154,13 @@ img {
     75% {color: pink;}
     85% {color: orange;}
     100% {color: red;}
+}
+
+.col-container {
+    display: table;
+    width: 100%;
+}
+
+.col {
+    display: table-cell;
 }
